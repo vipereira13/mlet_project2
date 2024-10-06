@@ -12,5 +12,3 @@ async def get_website_link():
 
     download_arquivo()
     print(preparatoupload())
-
-    return print("oi")
