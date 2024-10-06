@@ -2,7 +2,7 @@ import pandas as pd
 from src.utils.functions import lastbussinessday
 from src.utils.functions import caminho
 
-def preparatoupload():
+def preparetoupload():
     file_path = caminho()
     day = lastbussinessday()
     day = day.replace('-', '')
