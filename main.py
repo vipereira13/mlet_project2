@@ -10,3 +10,4 @@ async def get_website_link():
 
     download_arquivo()
     preparetoupload()
+    prediction()
